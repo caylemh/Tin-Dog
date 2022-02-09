@@ -13,7 +13,6 @@ h1 {
 }
 
 h2{
-  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -28,6 +27,8 @@ sub{
   font-size: 50%;
 }
 
+/* Title Section */
+
 #title {
   background-color: #ff4c68;
   color: white;
@@ -35,6 +36,10 @@ sub{
 
 
 /* Navigation Bar */
+
+.container-fluid {
+  padding: 5% 15% 7%;
+}
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -54,9 +59,6 @@ sub{
   font-size: 1.2rem;
 }
 
-.container-fluid {
-  padding: 5% 15% 7%;
-}
 
 /* Title Image */
 
@@ -72,6 +74,7 @@ sub{
 .download-btn {
   margin: 5% 3% 5% 0;
 }
+
 
 /* Features Section */
 
@@ -166,7 +169,6 @@ sub{
 }
 
 .cta-text{
-  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
 }
